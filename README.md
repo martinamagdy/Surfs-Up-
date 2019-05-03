@@ -11,7 +11,7 @@ Inspect the data for NaNs and missing values. You must decide what to do with th
 
 Save your cleaned CSV files with the prefix clean_.
 
-Step 2 - Database Engineering
+<strong>Step 2 - Database Engineering</strong>
 
 Use SQLAlchemy to model your table schemas and create a sqlite database for your tables. You will need one table for measurements and one for stations.
 
@@ -29,7 +29,7 @@ Make sure to define your primary keys.
 
 Once you have your ORM classes defined, create the tables in the database using create_all.
 
-Step 3 - Climate Analysis and Exploration
+<strong>Step 3 - Climate Analysis and Exploration</strong>
 
 You are now ready to use Python and SQLAlchemy to do basic climate analysis and data exploration on your new weather station tables. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
@@ -68,7 +68,7 @@ Use the average temperature as the bar height.
 Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
 
 
-[Step 4 - Climate App]](app.py)
+<strong>[Step 4 - Climate App]](app.py)</strong>
 
 Now that you have completed your initial analysis, design a Flask api based on the queries that you have just developed.
 
