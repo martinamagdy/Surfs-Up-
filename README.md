@@ -1,5 +1,5 @@
 # Surfs-Up-
-Step 1 - Data Engineering
+<strong>Step 1 - Data Engineering</strong>
 
 The climate data for Hawaii is provided through two CSV files. Start by using Python and Pandas to inspect the content of these files and clean the data.
 
